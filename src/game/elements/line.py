@@ -4,6 +4,7 @@ from utilities import colors
 from ..settings import SCREEN_WIDTH, SCREEN_HEIGHT, VELOCITY
 
 
+# CLASE PARA DIBUJAR LAS LINEAS BLANCAS QUE DIVIDEN LA PISTA EN DOS CARRILES
 # ----------------------------------------------------------------------------------------------------
 class Line:
     def __init__(self, pos_y):

@@ -34,6 +34,6 @@ El objetivo principal del juego es sobrevivir y subir de nivel mientras se evita
 
 ## Tecnologías utilizadas
 * [Python 3.10.0](https://www.python.org/) Python es un lenguaje de alto nivel de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código, se utiliza para desarrollar aplicaciones de todo tipo.
-* [PyGame](https://www.pygame.org/) Pygame es un conjunto de módulos de Python diseñados para escribir videojuegos. Pygame agrega funcionalidad sobre la excelente biblioteca SDL. Esto te permite crear juegos completamente funcionales y programas multimedia en el lenguaje Python.
+* [PyGame 2.5.0](https://www.pygame.org/) Pygame es un conjunto de módulos de Python diseñados para escribir videojuegos. Pygame agrega funcionalidad sobre la excelente biblioteca SDL. Esto te permite crear juegos completamente funcionales y programas multimedia en el lenguaje Python.
 * [Visual Studio Code](https://code.visualstudio.com/) es un editor de código fuente desarrollado por Microsoft. Es un entorno de desarrollo integrado (IDE) muy popular y ampliamente utilizado por desarrolladores de software en diversas plataformas, incluyendo Windows, macOS y Linux. Aunque es desarrollado por Microsoft, VS Code es de código abierto y gratuito.
 

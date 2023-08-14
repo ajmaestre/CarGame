@@ -4,6 +4,7 @@ from random import randint
 from ..settings import SCREEN_WIDTH, SCREEN_HEIGHT, VELOCITY, CAR_WIDTH, CAR_HEIGHT
 
 
+# CLASE PARA DIBUJAR AL AUTOMÓVIL ENEMIGO
 # ----------------------------------------------------------------------------------------------------
 class Enemy:
     def __init__(self):

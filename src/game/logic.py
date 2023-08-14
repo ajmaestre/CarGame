@@ -8,6 +8,7 @@ from .elements.car import Car
 from .elements.message import Message
 
 
+# CLASE PARA MONTAR TODOS LOS ELEMENTOS Y CONTROLAR LA LÓGICA DEL JUEGO
 class Logic():
 
     def __init__(self, screen):

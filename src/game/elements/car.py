@@ -3,6 +3,7 @@ import pygame
 from ..settings import SCREEN_WIDTH, SCREEN_HEIGHT, CAR_WIDTH, CAR_HEIGHT
 
 
+# CLASE PARA DIBUJAR EL AUTOMÓVIL DEL JUGADOR
 # ----------------------------------------------------------------------------------------------------
 class Car:
     def __init__(self):
@@ -12,6 +13,7 @@ class Car:
         self.rect.x = (SCREEN_WIDTH/2) - 80
         self.rect.y = SCREEN_HEIGHT - 120
 
+    # FUNCIÓN PARA CAPTURAR LOS EVENTOS GENERADOS AL PULSAR LAS TECLAS DE FLECHAS IZQUIERDA Y DERECHA
     def update(self):
         keys = pygame.key.get_pressed()
         if keys[pygame.K_LEFT] and self.rect.x > (SCREEN_WIDTH/2) - 90:

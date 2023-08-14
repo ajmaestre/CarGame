@@ -4,6 +4,7 @@ from utilities import colors
 from ..settings import SCREEN_WIDTH, SCREEN_HEIGHT
 
 
+# CLASE PARA DIBUJAR LA PISTA DONDE SE DESPLAZAN LOS CARROS
 # ----------------------------------------------------------------------------------------------------
 class Street:
     def __init__(self):

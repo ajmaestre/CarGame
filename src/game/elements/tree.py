@@ -3,6 +3,7 @@ import pygame
 from ..settings import SCREEN_WIDTH, SCREEN_HEIGHT, VELOCITY
 
 
+# CLASE PARA DIBUJAR LOS ARBOLES QUE ADORNAN EL JUEGO
 # ----------------------------------------------------------------------------------------------------
 class Tree:
     def __init__(self, pos_x, pos_y, image = "assets/images/tree.png"):

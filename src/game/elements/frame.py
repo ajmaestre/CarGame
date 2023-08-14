@@ -1,6 +1,8 @@
 
 import pygame
 
+
+# CLASE PARA DIBUJAR UN RECTANGULO CON LOS PARÁMETROS INDICADOS
 # ----------------------------------------------------------------------------------------------------
 class Frame:
     def __init__(self, x, y, w, h, color):

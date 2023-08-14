@@ -4,6 +4,7 @@ from utilities import colors
 from ..settings import SCREEN_WIDTH, SCREEN_HEIGHT
 
 
+# CLASE QUE DIBUJA EL TEXTO DE GAME OVER QUE RESULTA AL PERDER EL JUEGO
 # ----------------------------------------------------------------------------------------------------
 class Message:
     def __init__(self):

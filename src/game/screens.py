@@ -9,8 +9,10 @@ from utilities import colors
 from .elements.timer import Timer
 
 
+# CLASE PARA MANEJAR EL TABLERO DONDE SE LLEVA A CABO EL JUEGO
 class Game(GameState):
     def __init__(self):
+        # INICIALIZAMOS LOS PARÁMETROS DE LA VENTANA DEL JUEGO
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
         pygame.display.set_caption("My Game")
         self.clock = pygame.time.Clock()
@@ -25,6 +27,7 @@ class Game(GameState):
         self.logic = Logic(self.screen)
 
 
+    # MENU SECUNDARIO DE LA VENTANA DEL JUEGO
     def menu(self):
         mx, my = pygame.mouse.get_pos()
         if self.btnMenu.presed(mx, my):
@@ -39,7 +42,8 @@ class Game(GameState):
             if pygame.mouse.get_pressed()[0]:
                 self.reset()
 
-    
+
+    # FUNCIÓN PARA RESETEAR LOS PARÁMETROS DEL JUEGO Y COMENZAR DE NUEVO 
     def reset(self):
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
         pygame.display.set_caption("My Game")

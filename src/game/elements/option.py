@@ -3,6 +3,7 @@ import pygame
 from ..settings import SCREEN_WIDTH
 
 
+# CLASE PARA GENERAR LOS TEXTOS DE LAS OPCIONES EN LOS MENUS
 # ----------------------------------------------------------------------------------------------------
 class Option:
     def __init__(self, title, x, y, size, color):

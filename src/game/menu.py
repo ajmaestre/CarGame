@@ -9,6 +9,7 @@ from utilities import colors
 from .states import GameState
 
 
+# CLASE PARA MANEJAR EL MENÚ PRINCIPAL DEL JUEGO
 class Menu(GameState):
     def __init__(self):
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))

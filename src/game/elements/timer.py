@@ -3,6 +3,7 @@ import pygame
 from utilities import colors
 
 
+# CLASE PARA GENERAR UN TEMPORIZADOR Y UN CONTADOR DE NIVELES
 # ----------------------------------------------------------------------------------------------------
 class Timer:
     def __init__(self):
