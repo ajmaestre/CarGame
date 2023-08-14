@@ -9,11 +9,11 @@ El objetivo principal del juego es sobrevivir y subir de nivel mientras se evita
 ## Características del juego
 * El juego está compuesto por:
   - El menu principal.
-    <img src="assets/images/menu.png">
+    <div><img src="assets/images/menu.png"></div>
   - Tablero de información.
-    <img src="assets/images/info.png">
+    <div><img src="assets/images/info.png"></div>
   - Tablero de juego.
-    <img src="assets/images/game.png">
+    <div><img src="assets/images/game.png"></div>
 
 ## Versiones
 * 1.0
