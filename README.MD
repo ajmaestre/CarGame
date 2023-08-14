@@ -8,20 +8,26 @@ El objetivo principal del juego es sobrevivir y subir de nivel mientras se evita
 
 ## Características del juego
 * El juego está compuesto por:
-  - El menu principal.
+  - El menu principal: Compuesto por tres opciones o botones (Play Game - para iniciar un nuevo juego, Info - que brinda un breve información sobre el juego, Exit - para salir o cerrar la ventana del juego), que pueden ser pulsados con el mouse.
+
     <br>
     <div><img src="assets/images/menu.png"></div>
     <br>
     <br>
-  - Tablero de información.
+
+  - Tablero de información: Compuesto por un boton para regresar al menú principal y una breve información sobre el juego y sus características.
+
     <br>
     <div><img src="assets/images/info.png"></div>
     <br>
     <br>
-  - Tablero de juego.
+
+  - Tablero de juego: Donde se lleva a cabo el juego. Compuesto por el panel donde se realiza el juego y un pequeño menu donde se encuentra el temporizador del juego, el contador de niveles, un boton para resetear el juego, un boton para pausar el juego y un boton para regresar al menú principal.
+
     <br>
     <div><img src="assets/images/game.png"></div>
     <br>
+
 
 ## Versiones
 * 1.0
